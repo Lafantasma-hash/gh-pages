@@ -31,14 +31,11 @@ ul.topnav li.right {float: right;}
   ul.topnav li.right,
   ul.topnav li {float: none;}
 }
-
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 400px;
-  margin-top: 50px;
-  margin-left: 725px;
-  text-align: center;
+  max-width: 300px;
+  margin: auto;
+
 
 }
 
