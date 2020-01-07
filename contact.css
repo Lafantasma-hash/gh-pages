@@ -38,7 +38,10 @@ ul.topnav li.right {float: right;}
   max-width: 400px;
   margin: auto;
   text-align: center;
-  transform: rotate(270deg);
+  
+}
+.card img{
+  transform:rotate(270deg)
 }
 
 .title {
