@@ -76,7 +76,7 @@ color: black;
   display: grid;
   grid-template-areas: "ppics, ppics1, ppics2";
   grid-template-columns: 5% 1fr 1fr 1fr 1fr 1fr 5%
-  grid-template-rows: auto;
+  grid-template-rows: fit-content;
   grid-gap: 5px;
   color: white;
   text-align: center;
