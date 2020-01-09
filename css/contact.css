@@ -1,0 +1,85 @@
+*, *::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+@@font-face {
+  font-family: "lato";
+  font: sans-serif;
+}
+body {
+  margin: 0;
+  background-image: url(../img/fancy-pants.jpg);
+   background-repeat: repeat;
+}
+.logo {
+  max-width: 10vh;
+  max-height: 5vh;
+}
+.navigation {
+
+  min-height: 10vh;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: black;
+  padding: 0;
+  list-style-type: none;
+
+
+}
+
+
+.pages {
+ float: left;
+
+
+}
+
+.pages a {
+ display: flex;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+.pages a:hover {
+ background-color: #111;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-top: auto;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.copyright {
+text-align: left;
+width: auto;
+position: absolute;
+bottom: auto;
+height: auto;
+padding: auto;
+}
+.copyright p {
+color: white;
+text-align: center;
+
+
+}
+.foot {
+color: black;
+
+
+}
